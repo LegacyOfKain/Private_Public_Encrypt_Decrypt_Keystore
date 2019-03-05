@@ -30,7 +30,7 @@ public class RsaExample {
 
     public static KeyPair getKeyPairFromKeyStore() throws Exception {
         //Generated with:
-        //  keytool -genkeypair -alias mykey -storepass s3cr3t -keypass s3cr3t -keyalg RSA -keystore keystore.jks
+        //  keytool -genkeypair -alias mykey -storepass s3cr3t -keypass s3cr3t -keyalg RSA -storetype jceks -keystore keystore.jks
         // For listing all the certs
     	//keytool.exe -list -v -keystore keystore.jks
         // For exporting the certificate
